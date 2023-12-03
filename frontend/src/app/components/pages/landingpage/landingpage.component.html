@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="welcome-text">
+            <h2 style="font-family: 'Montserrat Classic'; font-weight: bold;">WELCOME TO</h2>
+        </div>
+        <img src="Assets/logo.png" alt="Your Image" class="center-image">
+        <div class="coinconvo-text">
+            <h2 style="font-family: 'Futura'; font-weight: bold;">COINCONVO</h2>
+            <p style="font-family: 'Gotham';">DENOMINATION CHANGER</p>
+        </div>
+        <button type="submit" class="btn" onclick="openPopup()">START</button>
+    </div>
+    <div class="popupcredit" id="popup">
+        <img src="Assets/creditLogo.png"  >
+        <h2 class="header">INPUT BILL</h2>
+        <p>Please input your bill or coin in the deposit module</p>
+        <div class="creditInput">
+        <label>Php</label>
+        </div>
+        <button type="button" onClick="closePopup()">DONE</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
